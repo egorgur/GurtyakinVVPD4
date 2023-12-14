@@ -15,3 +15,13 @@ def lighten(h, percent):
     print(goal_1, goal_2, goal_3)
     color = (goal_1, goal_2, goal_3)
     return rgb_interpreter(color)
+
+def darken(h, percent):
+    color = hex_interpreter(h)
+    goal_1 = color[0] * percent // 100
+    goal_2 = color[1] * percent // 100
+    goal_3 = color[2] * percent // 100
+    print(color)
+    print(goal_1, goal_2, goal_3)
+    color = (goal_1, goal_2, goal_3)
+    return rgb_interpreter(color)
