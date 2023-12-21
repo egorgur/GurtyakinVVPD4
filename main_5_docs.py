@@ -171,12 +171,14 @@ def clients_menu(clients_arr):
 
     :raise Index Error:
 
-    :return: clients_arr:list
+    :return: clients_arr: list
 
     Examples:
         clients_arr = []
 
-        >>>2 #Создать клиента
+        >>>2
+
+        Создать клиента
 
         >>> 'fio -> Test'
 
@@ -375,7 +377,7 @@ def main():
     Paper is economic paper
     Package is an object that contains one client object and a list of paper objects
     Package can count the combined profit of all its papers.
-    Package can add new papers in and remove them out
+    Package can add new papers in and remove them out\Ц
 
     :return: 0
     """
